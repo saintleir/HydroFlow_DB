@@ -12,6 +12,13 @@
 5. Run `src/hydroflow/db/TestConnection.java` first. It should print "Connection OK."
 6. Run `src/hydroflow/HydroFlowApp.java`.  Login: **admin / admin123**
 
+## How to see tables in MySQL Command Line
+1. enter your MySQL password
+2. enter `USE hydroflow_db;`
+3. enter `SHOW TABLES;`
+3. select which tables you'd like to see a specific data from
+4. enter `SELECT * FROM (table data name);`      -- ex: **SELECT * FROM customers;**
+
 ## Folder layout
 ```
 sql/schema.sql, sample_data.sql   database
