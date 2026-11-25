@@ -12,11 +12,11 @@
 5. Run `src/hydroflow/HydroFlowApp.java`.  Login: **admin / admin123**
 
 ## How to see tables in MySQL Command Line
-1. enter your MySQL password
-2. enter `USE hydroflow_db;`
-3. enter `SHOW TABLES;`
-3. select which tables you'd like to see a specific data from
-4. enter `SELECT * FROM (table data name);`      -- ex: **SELECT * FROM customers;**
+1. Enter your MySQL password
+2. Enter `USE hydroflow_db;`
+3. Enter `SHOW TABLES;`
+3. Select which tables you'd like to see a specific data from
+4. Enter `SELECT * FROM (table data name);`      -- ex: **SELECT * FROM customers;**
 
 ## Folder layout
 ```
