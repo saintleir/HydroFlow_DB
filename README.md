@@ -9,8 +9,7 @@
 4. **Connection**: open `src/hydroflow/db/DBConnection.java` and set USER / PASSWORD
    (default: user `root`, empty password, `localhost:3306`). Or set the environment variables
    `HYDROFLOW_DB_URL`, `HYDROFLOW_DB_USER`, `HYDROFLOW_DB_PASS` so the shared code is never edited.
-5. Run `src/hydroflow/db/TestConnection.java` first. It should print "Connection OK."
-6. Run `src/hydroflow/HydroFlowApp.java`.  Login: **admin / admin123**
+5. Run `src/hydroflow/HydroFlowApp.java`.  Login: **admin / admin123**
 
 ## How to see tables in MySQL Command Line
 1. enter your MySQL password
