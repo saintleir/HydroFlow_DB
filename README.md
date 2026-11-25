@@ -6,8 +6,8 @@
    WARNING: schema.sql deletes and recreates `hydroflow_db`, so do not run it again once you have real data.
 2. **Eclipse**: *File > Import > General > Existing Projects into Workspace* > choose this folder.
 3. **Jars**: add MySQL Connector/J and JFreeChart (see `lib/README.txt`).
-4. **Connection**: open `src/hydroflow/db/DBConnection.java` and set USER / PASSWORD
-   (default: user `root`, empty password, `localhost:3306`). Or set the environment variables
+4. **Connection**: open `src/hydroflow/db/DBConnection.java` and set USER / PASSWORD / URL
+   (default: user `root`, own MySQL password, `localhost:3306`). Or set the environment variables
    `HYDROFLOW_DB_URL`, `HYDROFLOW_DB_USER`, `HYDROFLOW_DB_PASS` so the shared code is never edited.
 5. Run `src/hydroflow/HydroFlowApp.java`.  Login: **admin / admin123**
 
