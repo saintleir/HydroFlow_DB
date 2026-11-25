@@ -20,8 +20,8 @@
 
 ## Folder layout
 ```
-sql/schema.sql, sample_data.sql   database
-src/hydroflow/db/                 DBConnection (settings), DatabaseException, TestConnection
+sql/schema.sql,                   database
+src/hydroflow/db/                 DBConnection (settings), DatabaseException,
 src/hydroflow/dao/                one class per table: UserDAO, CustomerDAO, SettingsDAO, OrderDAO, LedgerDAO
 src/hydroflow/data/DataStore.java what the windows call; it calls the DAOs
 src/hydroflow/model/              Customer, Order, LedgerEntry, Settings, Billing (all formulas)
@@ -35,5 +35,5 @@ MARK AS DELIVERED updates the order and inserts the ledger row in ONE transactio
 
 ## Notes
 - Database errors (MySQL off, wrong password, missing jar) show up as an error dialog with hints.
-- A customer who already has orders cannot be deleted (foreign key).
+- Change URL, User, and Password in `DBConnection.java` to match your MySQL credentials.
 - Passwords are stored as SHA-256 hashes.
