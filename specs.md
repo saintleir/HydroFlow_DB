@@ -2,8 +2,6 @@
 
 **Feature Branch**: `001-hydroflow-sales-billing`
 
-**Created**: 2026-11-26
-
 **Status**: Draft
 
 **Input**: User description: "Specify and document the existing HydroFlow_DB Java Swing and MySQL water refilling station sales and billing system."
