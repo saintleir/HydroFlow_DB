@@ -1,6 +1,6 @@
 # HydroFlow (Java Swing + MySQL)
 
-## Setup (one time)
+## Setup (one time)!!
 1. **MySQL**: open `sql/schema.sql` in MySQL Workbench and run it. It creates the database `hydroflow_db`
    with the tables and the starting data (admin account, settings, 7 customers).
    WARNING: schema.sql deletes and recreates `hydroflow_db`, so do not run it again once you have real data.
